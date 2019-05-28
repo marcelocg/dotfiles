@@ -1,0 +1,1 @@
+alias up="sudo apt update && sudo apt upgrade -y --fix-missing && sudo apt dist-upgrade -y && sudo apt autoremove -y"
