@@ -4,7 +4,7 @@
 ZSH_TMUX_AUTOSTART="true"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/marcelo/.oh-my-zsh"
+export ZSH="/home/$(logname)/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -106,13 +106,4 @@ if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
 
-export PATH="/home/marcelo/.local/bin:$PATH"
-
-# Proxyman settings
-#export http_proxy="http://192.168.56.1:3128/"
-#export rsync_proxy="rsync://192.168.56.1:3128/"
-#export no_proxy="localhost,127.0.0.1,192.168.1.1,::1,*.local"
-#export HTTP_PROXY="http://192.168.56.1:3128/"
-#export NO_PROXY="localhost,127.0.0.1,192.168.1.1,::1,*.local"
-#export https_proxy="http://192.168.56.1:3128/"
-#export HTTPS_PROXY="http://192.168.56.1:3128/"
+export PATH="/home/$(logname)/.local/bin:$PATH"
