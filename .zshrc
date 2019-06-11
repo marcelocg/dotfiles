@@ -106,4 +106,4 @@ if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
 
-export PATH="/home/$(logname)/.local/bin:$PATH"
+export PATH=/home/$(logname)/.local/bin:$PATH
