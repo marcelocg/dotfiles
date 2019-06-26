@@ -1,1 +1,16 @@
+# update the system
 alias up="sudo apt update && sudo apt upgrade -y --fix-missing && sudo apt dist-upgrade -y && sudo apt autoremove -y"
+
+# list files
+alias la="ls -oa" # show hidden files and format nicely
+
+# git aliases
+alias gdf="git diff"
+alias gap="git add -p"
+alias gc="git commit -m"
+alias gs="git status"
+alias gco="git checkout"
+alias gul="git pull"
+alias gush="git push"
+alias gbra="git branch"
+alias glog="git log --pretty=format:'%h - %an: %s' --graph" # print out log with hash, author name, status, and include graph info
