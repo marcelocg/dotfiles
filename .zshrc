@@ -70,6 +70,8 @@ plugins=(
   z
   git
   chucknorris
+  docker
+  docker-compose
   tmux
   zsh-autosuggestions
   zsh-syntax-highlighting
