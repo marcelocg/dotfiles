@@ -72,6 +72,7 @@ plugins=(
   chucknorris
   docker
   docker-compose
+  thefuck
   tmux
   zsh-autosuggestions
   zsh-syntax-highlighting
