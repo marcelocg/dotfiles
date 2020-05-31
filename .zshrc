@@ -4,7 +4,7 @@
 ZSH_TMUX_AUTOSTART="true"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/$(logname)/.oh-my-zsh"
+export ZSH="/home/$USER/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -110,4 +110,4 @@ if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
 
-export PATH=/home/$(logname)/.local/bin:$PATH
+export PATH=/home/$USER/.local/bin:$PATH
